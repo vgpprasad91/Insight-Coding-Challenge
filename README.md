@@ -4,7 +4,8 @@ This is an interactive social network payment transfer application, that is effi
 
 # Pipeline :
 
-1. Wrote a script to get real time transactions from 
+1. Wrote a script to get real time transactions from venmo api and send to kafka
+2. 
 
 # Coding Challenge
 
