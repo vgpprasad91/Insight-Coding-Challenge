@@ -4,7 +4,7 @@ This is an interactive social network payment transfer application, that is effi
 
 # Pipeline :
 
-1. 
+1. Wrote a script to get real time transactions from 
 
 # Coding Challenge
 
