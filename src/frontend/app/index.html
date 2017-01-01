@@ -1,0 +1,54 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <title>VenmoPlus - Explore your Venmo network!</title>
+
+    <script src="https://code.angularjs.org/1.4.3/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.3/angular-route.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.3/angular-resource.min.js"></script>
+    <!--
+    <script src="static/angular.min.js"></script>
+    <script src="static/angular-route.min.js"></script>
+    <script src="static/angular-resource.min.js"></script>
+    -->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!--
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#/" class="navbar-brand">VenmoPlus</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a href="https://github.com/qingpeng/VenmoPlus" target="_blank"><span class="glyphicon glyphicon-home"></span> Repo@Github</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80010806-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+</html>
+
