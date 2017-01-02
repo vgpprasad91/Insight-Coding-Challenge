@@ -4,12 +4,14 @@ This is an interactive social network payment transfer application, that is effi
 
 # Pipeline :
 
-Real Time Transactions:
+# Real Time Transactions:
+
 1. Wrote a script to get real time transactions from venmo api and send to kafka
 2. Used spark streaming to consume messages from kafka. Then stored the records into elastic search and Redis.
 3. Then made use of flask to build api's and angularjs to implement frontend function
 
-Batch Processing:
+# Batch Processing:
+
 1. Used AWS S3 to hold historic transactions data.
 2. Then wrote scripts to load historic transactions data from S3 into Redis and ElasticSearch DB.
 3. Then made use of flask to build api's and angularjs to implement frontend function
